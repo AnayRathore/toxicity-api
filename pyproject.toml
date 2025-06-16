@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "toxicity-api"
+version = "0.1.0"
+description = "Toxicity API using TensorFlow"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+fastapi = "0.110.0"
+uvicorn = "0.29.0"
+tensorflow = "2.13.0"
+numpy = "*"
+pydantic = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
